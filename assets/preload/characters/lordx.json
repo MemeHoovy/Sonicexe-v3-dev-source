@@ -3,61 +3,6 @@
 		{
 			"loop": false,
 			"offsets": [
-				-5,
-				0
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "BF idle dance",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				5,
-				-6
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "BF NOTE LEFT0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-10,
-				-50
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "BF NOTE DOWN0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-29,
-				27
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "BF NOTE UP0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-48,
-				-7
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "BF NOTE RIGHT0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
 				7,
 				19
 			],
@@ -197,25 +142,80 @@
 			"fps": 24,
 			"name": "bf pre attack",
 			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				140
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "X_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				75,
+				164
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "X_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				130,
+				130
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "X_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				247
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "X_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				172
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "X_Right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/SONIC_X",
 	"position": [
 		0,
 		350
 	],
-	"healthicon": "bf",
-	"flip_x": true,
+	"healthicon": "soylent",
+	"flip_x": false,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		189,
+		180,
+		135
 	],
 	"camera_position": [
-		0,
-		0
+		-40,
+		-150
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 1.1
 }
