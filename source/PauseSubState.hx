@@ -216,7 +216,7 @@ class PauseSubState extends MusicBeatSubstate
 				}
 
 				menuItems = menuItemsOG;
-				regenMenu();
+				regnMenu();
 			}
 
 			switch (daSelected)
